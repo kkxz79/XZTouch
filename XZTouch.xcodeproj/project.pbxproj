@@ -13,6 +13,8 @@
 		9BA7E31E217D76D000EC960D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7E31D217D76D000EC960D /* Assets.xcassets */; };
 		9BA7E321217D76D000EC960D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA7E31F217D76D000EC960D /* LaunchScreen.storyboard */; };
 		9BA7E324217D76D000EC960D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E323217D76D000EC960D /* main.m */; };
+		9BA7E32C217D770100EC960D /* XZViewA.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E32B217D770100EC960D /* XZViewA.m */; };
+		9BA7E32F217D771A00EC960D /* XZViewB.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA7E32E217D771A00EC960D /* XZViewB.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		9BA7E320217D76D000EC960D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BA7E322217D76D000EC960D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9BA7E323217D76D000EC960D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9BA7E32A217D770100EC960D /* XZViewA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZViewA.h; sourceTree = "<group>"; };
+		9BA7E32B217D770100EC960D /* XZViewA.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZViewA.m; sourceTree = "<group>"; };
+		9BA7E32D217D771A00EC960D /* XZViewB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XZViewB.h; sourceTree = "<group>"; };
+		9BA7E32E217D771A00EC960D /* XZViewB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XZViewB.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				9BA7E315217D76CB00EC960D /* AppDelegate.m */,
 				9BA7E317217D76CB00EC960D /* ViewController.h */,
 				9BA7E318217D76CB00EC960D /* ViewController.m */,
+				9BA7E32A217D770100EC960D /* XZViewA.h */,
+				9BA7E32B217D770100EC960D /* XZViewA.m */,
+				9BA7E32D217D771A00EC960D /* XZViewB.h */,
+				9BA7E32E217D771A00EC960D /* XZViewB.m */,
 				9BA7E31A217D76CB00EC960D /* Main.storyboard */,
 				9BA7E31D217D76D000EC960D /* Assets.xcassets */,
 				9BA7E31F217D76D000EC960D /* LaunchScreen.storyboard */,
@@ -143,6 +153,8 @@
 			files = (
 				9BA7E319217D76CB00EC960D /* ViewController.m in Sources */,
 				9BA7E324217D76D000EC960D /* main.m in Sources */,
+				9BA7E32C217D770100EC960D /* XZViewA.m in Sources */,
+				9BA7E32F217D771A00EC960D /* XZViewB.m in Sources */,
 				9BA7E316217D76CB00EC960D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
